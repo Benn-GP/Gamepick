@@ -166,7 +166,7 @@ def mostrar_recomendacion(combo_categoria, combo_epoca, resultado):
 
     if not categoria or not epoca:
         resultado.delete("1.0", tk.END)
-        resultado.insert(tk.END, "Selecciona una categoría y una época antes de recomendar.")
+        resultado.insert(tk.END, "Encuentra tu próximo videojuego favorito")
         return
 
     juego = recomendar_juego(categoria, epoca)
@@ -177,7 +177,7 @@ def mostrar_recomendacion(combo_categoria, combo_epoca, resultado):
         return
 
     nombre, genero, descripcion = juego
-    resultado.insert(tk.END, "🎮 RECOMENDACIÓN\n\n")
+    resultado.insert(tk.END, "🎮 MI RECOMENDACIÓN\n\n")
     resultado.insert(tk.END, f"Juego: {nombre}\n")
     resultado.insert(tk.END, f"Categoría: {genero}\n")
     resultado.insert(tk.END, f"Época: {epoca}\n")
