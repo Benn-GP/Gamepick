@@ -229,8 +229,8 @@ def main():
     contenedor.pack(fill="both", expand=True)
 
     ttk.Label(contenedor, text="🎮 GAMEPICK", style="Titulo.TLabel").pack(pady=(0, 5))
-    ttk.Label(contenedor, text="Recomendador de Videojuegos").pack(pady=(0, 20))
-
+    ttk.Label(contenedor, text="Encuentra tu próximo videojuego favorito").pack(pady=(0, 20))
+    
     marco = ttk.Frame(contenedor)
     marco.pack(fill="x")
 
