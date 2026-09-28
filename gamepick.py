@@ -230,7 +230,7 @@ def main():
 
     ttk.Label(contenedor, text="🎮 GAMEPICK", style="Titulo.TLabel").pack(pady=(0, 5))
     ttk.Label(contenedor, text="Descubre tu próximo videojuego").pack(pady=(0, 20))
-
+    
     marco = ttk.Frame(contenedor)
     marco.pack(fill="x")
 
